@@ -18,7 +18,7 @@ También permite calcular, dada una función, su transformada de Fourier y trans
 
 ## Instalación
 
-### Requisitos
+### Requisitos del sistema
 - Linux (soporte principal y probado)
 - C++17
 - CMake ≥ 3.10
