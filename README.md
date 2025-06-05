@@ -21,7 +21,7 @@ También permite calcular, dada una función, su transformada de Fourier y trans
 ### Requisitos del sistema
 - Linux (soporte principal y probado)
 - C++17
-- CMake ≥ 3.10
+- [CMake](https://cmake.org/) >= 3.10, `make`
 - Eigen3
 - OpenBLAS
 
@@ -30,7 +30,7 @@ También permite calcular, dada una función, su transformada de Fourier y trans
 ```bash
 git clone https://github.com/lvargasgarcia/SnSm.git
 cd SnSm
-sudo chmod 700 install.sh
+chmod 700 install.sh
 sudo ./install.sh
 
 ```
