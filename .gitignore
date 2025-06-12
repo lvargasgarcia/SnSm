@@ -1,3 +1,4 @@
 build
 python/dist/
 python/*.egg-info
+.vscode/

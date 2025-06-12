@@ -29,7 +29,7 @@ add_library(SnSm INTERFACE)
 # Configurar rutas de inclusión para la instalación
 target_include_directories(SnSm INTERFACE
     $<BUILD_INTERFACE:${CMAKE_SOURCE_DIR}/include>
-    $<INSTALL_INTERFACE:include>
+    $<INSTALL_INTERFACE:include/snsm>
     ${EIGEN3_INCLUDE_DIR}
 )
 
@@ -44,5 +44,5 @@ install(EXPORT SnSmConfig
     DESTINATION lib/cmake/SnSm
 )
 
-# Instalar los archivos de cabecera
-install(DIRECTORY include/ DESTINATION include)
+# Instalar los archivos de cabecera en /usr/local/include/snsm
+install(DIRECTORY include/ DESTINATION include/snsm)
